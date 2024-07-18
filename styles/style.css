@@ -29,6 +29,16 @@ header{
     align-items: center;
     padding: 2rem 0;
 }
+
+
+
+.menu i{
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+
 .navbar .logo h3{
     color: #E6533C;
     font-size: 3rem;
@@ -70,8 +80,13 @@ header{
     height: 100%;
 }
 header .container{
+    flex-direction: column;
     height: 100%;
     padding-bottom: 4rem;
+}
+.container .image{
+    width: 100%;
+    height: 100%;
 }
 .container .title h1{
     color: #ffffff;
@@ -170,4 +185,59 @@ main{
 .card-2 h4,p{
     color: #ffffff;
     padding-top: 1rem;
+}
+
+
+/* banner2 styles */
+
+
+@media screen and (max-width: 576px) {
+    
+
+    .navbar .nav-item{
+        display: none;
+    }
+    
+    header, .title, .navbar, .container, .image{
+        padding: 0;
+        margin: 0;
+    }
+    .card-2{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .container .title{
+        padding: 2rem;
+        margin: 0;
+    }
+    .container .title h1{
+        font-size: 3rem;
+    }
+    .title h1 span{
+        font-size: 6rem;
+    }
+
+    .container .image{
+        position: relative;
+        width: (100% - 2rem);
+        height: auto;
+        margin-bottom: auto;
+    }
+    header{
+        width: 100%;
+    }
+    .container .image .one{
+        margin-top: -480px;
+    }
+    .container .image .two{
+        margin-left: 70px;
+    }
+    .banner-1 .card-2{
+        padding: 0;
+    }
+    .banner-1 .card-2 p{
+        padding: 0 2rem;
+    }
+    
 }
