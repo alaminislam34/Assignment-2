@@ -14,7 +14,9 @@
     cursor: pointer;
     background-color: #6b6b6b;
 }
-
+.dark{
+    color: #797979;
+}
 /* navbar styles */
 header{
     background: url(../images/header-bg.png);
@@ -135,4 +137,37 @@ header .container{
     height: 30px;
     background-color: #E6533C;
     border-radius: 50%;
+}
+
+
+
+/* banner-1 styles */
+main{
+    background: black;
+}
+
+
+.banner-1{
+    text-align: center;
+    padding: 2rem;
+}
+.banner-1 h3{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.banner-1 .card-2{
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    gap: 1rem;
+
+}
+.card-2 img{
+    border-radius: 50%;
+    border: 5px solid #3a3a3a;
+}
+.card-2 h4,p{
+    color: #ffffff;
+    padding-top: 1rem;
 }
