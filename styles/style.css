@@ -204,6 +204,10 @@ main{
 }
 .banner-2 .banner-2-image img{
     border-radius: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .banner-2-content{
     padding-right: 8rem;
@@ -293,6 +297,26 @@ main{
         padding: 0;
         margin: 0;
     }
+    .container .image .card{
+        width: 150px;
+        height: 80px;
+        padding: 0;
+    }
+    .container .image .card h3{
+        font-size: 20px;
+    }
+    .container .image .one h3{
+        padding-top: 1rem;
+    }
+    .container .image .card p{
+        font-size: 10px;
+        padding: 0;
+    }
+    .container .image .two{
+        gap: 10px;
+        padding-left: 1.3rem;
+        align-items: center;
+    }
     .card-2{
         flex-direction: column;
         width: 100%;
@@ -308,12 +332,13 @@ main{
     .title h1 span{
         font-size: 6rem;
     }
-
+    header .container{
+        height: 100%;
+    }
     .container .image{
         position: relative;
-        width: (100% - 2rem);
-        height: auto;
-        margin-bottom: auto;
+        height: 100%;
+        margin-bottom: 2rem;
     }
     header{
         width: 100%;
@@ -330,5 +355,61 @@ main{
     .banner-1 .card-2 p{
         padding: 0 2rem;
     }
-    
+
+    .banner-2{
+        flex-direction: column;
+        padding: 2rem;
+        margin: 1rem;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .banner-2 .banner-2-content{
+        padding: 0;
+        margin: 0;
+    }
+    .banner-2-image img{
+        width: 100%;
+    }
+    .banner-2-content h3, p{
+        padding: 0 2rem;
+    }
+    .banner-3{
+        padding: 1rem;
+        margin: 0;
+    }
+    .banner-3 .banner-3-content{
+        padding: 1rem 0;
+    }
+    .banner-3-content h3{
+        font-size: 2rem;
+    }
+    .banner-3-content p{
+        padding: 0;
+    }
+    .none{
+        display: none;
+    }
+    .banner-3 .grid-1{
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        padding: 0;
+    }
+    .banner-3 .grid-2{
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        margin: 0;
+    }
+    .banner-3 img{
+        height: auto;
+        width: 100%;
+    }
+    .ex{
+        font-size: 12px;
+        font-weight: normal;
+        color: #aeaeae;
+    }
+    .grid-1 img, .grid-2 img{
+        height: 130px;
+    }
 }
