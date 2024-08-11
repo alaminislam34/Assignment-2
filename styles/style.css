@@ -127,7 +127,9 @@ header .container{
     backdrop-filter: blur(4px);
     padding: 0 1rem;
 }
+
 .container .image .one{
+    padding-top: 10px;
     top: -450px;
     left: 200px;
 }
@@ -143,6 +145,7 @@ header .container{
 }
 .card p{
     color: #acacac;
+    padding: 0;
 }
 
 .image .two i{
@@ -162,12 +165,13 @@ main{
 
 .banner-1{
     text-align: center;
-    padding: 2rem;
+    padding: 3rem 2rem;
 }
 .banner-1 h3{
     color: #ffffff;
     font-size: 3rem;
     font-weight: bold;
+    padding-bottom: 1rem;
 }
 .banner-1 .card-2{
     display: flex;
@@ -182,7 +186,7 @@ main{
 }
 .banner-1 .card-2 h4,p{
     color: #ffffff;
-    padding-top: rem;
+    padding-top: 1rem;
 }
 
 
