@@ -616,7 +616,7 @@ footer h2{
     }
     .container .image img{
         width: 80vw;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .container .image .card{
         border-radius: 15px;
@@ -635,9 +635,9 @@ footer h2{
     .container .image .one{
         width: 100px;
         height: auto;
-        padding: 1rem 1.5rem;
+        padding: 1rem;
         margin: 0;
-        left: 210px;
+        left: 180px;
         top: 60px;
     }
     
@@ -800,7 +800,14 @@ footer h2{
     }
     .banner-4 .grid {
         flex-direction: column;
-        padding: .8rem;
+        gap: 1rem;
+        padding: 2rem 1rem;
+    }
+    .chart table tr td{
+        padding: 1rem .6rem;
+    }
+    .chart h4{
+        padding: 1.5rem 0;
     }
     .form-container {
         grid-template-columns: 1fr 1fr; 
@@ -869,21 +876,75 @@ footer h2{
         width: 100%;
         gap: 1rem;
     }
+    .futer{
+        gap: 2rem;
+    }
+    .footer-title h4{
+        font-size: 1.5rem;
+    }
 }
 
 
 
+@media screen and (min-width: 320px){
+    .navbar{
+        gap: 5rem;
+    }
+}
+@media screen and (min-width: 375px) {
+    .navbar{
+        gap: 8rem;
+    }
+    .container .image .one{
+        left: 200px;
+        padding: 1rem 1.5rem;
+    }
+    
+}
 
 
 
-@media screen and (min-width: 576px) and (max-width: 1024px) {
+@media screen and (min-width: 425px) {
+    .navbar{
+        gap: 11rem;
+    }
+    .container .image .one{
+        top: 80px;
+        left: 230px;
+        padding: 1rem 1.5rem;
+    }
+    .container .image .two{
+        top: 260px;
+        left: 50px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
     .navbar{
         width: 100%;
-        gap: 2rem;
+    }
+
+    /* .navbar .nav-item{
+        display: none;
+    }
+    .navbar .menu{
+        display: block;
+    }
+    .banner-2-content h3{
+        font-size: 2rem;
+    } */
+
+
+
+
+    .navbar .logo h3{
+        font-size: 2rem;
     }
     .navbar .nav-item{
         max-width: 450px;
         height: auto;
+    }
+    .nav-item a{
+        padding: .5rem 1rem;
     }
     header .container{
         flex-direction: column;
@@ -895,8 +956,36 @@ footer h2{
         width: 80%;
         padding: 2rem 0 2rem 0;
     }
+    .title h1{
+        font-size: 78px;
+    }
+    .title .btn button{
+        padding: 1rem 3rem;
+        font-weight: 600;
+        border-radius: 50px;
+        word-spacing: 3px;
+    }
     .container .title span{
-        font-size: 100px;
+        font-size: 120px;
+        font-weight: normal;
+    }
+    .container .image{
+        position: relative;
+    }
+    .container .image .card{
+        position: absolute;
+        height: auto;
+    }
+    .container .image .one{
+        left: 210px;
+        padding: 1.3rem;
+        border-radius: 10px;
+    }
+    .container .image .two{
+        padding: 1.3rem;
+        border-radius: 10px;
+        left: -50px;
+        top: 380px;
     }
     .container .image img{
         align-items: center;
@@ -932,16 +1021,39 @@ footer h2{
     }
     .banner-4 .grid{
         display: flex;
-        flex-direction: column;
+        gap: 2rem;
+        /* flex-direction: column; */
         padding: 1rem;
-        height: auto;
+        height: 100%;
     }
-    
+    .box-a{
+        width: 50%;
+    }
     .chart{
         padding: 0;
         margin: 0;
         width: 100%;
     }
+    .chart h4{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+    .box{
+        width: 80%;
+    }
+    .box h4{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+    .chart table .thead td{
+        font-size: 15px;
+        padding: 1rem .5rem;
+    }
+    .chart table tr td{
+        font-size: 15px;
+        padding: 1rem .5rem;
+    }
+    
     .banner-5 .banner-5-title .b5-descrip{
         padding: 1rem;
     }
@@ -967,14 +1079,6 @@ footer h2{
         gap: 1rem;
     }
 }
-@media screen and (max-width: 725px) {
-    .navbar .nav-item{
-        display: none;
-    }
-    .navbar .menu{
-        display: block;
-    }
-    .banner-2-content h3{
-        font-size: 2rem;
-    }
+@media screen and (max-width: 1024px) {
+    
 }
