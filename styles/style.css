@@ -827,7 +827,7 @@ footer h2{
     
     .banner-5 .b5-title{
         font-size: 2rem;
-        padding-top: 2rem;
+        padding: 2rem 0 0 0;
     }
 
     .footer{
