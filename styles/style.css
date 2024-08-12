@@ -265,7 +265,7 @@ main{
 .grid-2 .cart{
     position: relative;
 }
-
+/* -------------Excercise---------- */
 
 .grid-1 .ex-1{
     background: url(../images/exercise1.jpg);
@@ -291,7 +291,9 @@ main{
 
 
 
-
+.banner-3 .grid-1 .display-none{
+    display: none;
+}
 /* -------------overflow------------------- */
 .grid-1 .ex-1-overflow{
     width: 100%;
@@ -395,6 +397,9 @@ main{
     box-sizing: border-box;
     color: #797979;
   }
+  .form-container select option{
+    color: #797979;
+  }
   .form-container select:nth-child(5) {
     grid-column: span 2; 
   }
@@ -441,7 +446,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgba(255, 255, 255, 10%);
-    margin: 3rem 10rem;
+    margin: 3rem 8rem;
     border-radius: 20px;
     text-align: left;
 }
@@ -450,7 +455,6 @@ main{
     position: relative;
 }
 .banner-5_image .image-item img{
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0% , rgba(0, 0, 0, 0) 100% );
     width: 305px;
     height: 272px;
     justify-content: center;
@@ -460,11 +464,11 @@ main{
 }
 .image-item .b5{
     position: absolute;
-    margin-top: -80px;
+    margin-top: -75px;
     margin-left: 30px;
 }
 .banner-5_image .image-item p{
-    margin-top: -60px;
+    margin-top: -70px;
 }
 
 
@@ -483,6 +487,7 @@ footer .copyright{
 }
 .footer{
     display: flex;
+    gap: 1rem;
     justify-content: space-between;
     padding-bottom: 2rem;
     margin: 5rem 8rem 2rem 8rem;
@@ -676,9 +681,21 @@ footer h2{
     .banner-3-content p{
         padding: 0;
     }
+
+
+
+
     .none{
         display: none;
     }
+    .banner-3 .grid-1 .display-none{
+        display: block;
+    }
+
+
+
+
+
     .banner-3 .grid-1{
         grid-template-columns: 1fr 1fr;
         margin: 0;
