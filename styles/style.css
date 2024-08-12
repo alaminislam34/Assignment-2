@@ -491,11 +491,10 @@ body{
     background-size: cover;
 }
 .banner-5_image .trainer{
-    max-width: 300px;
+    max-width: 280px;
     height: 300px;
     text-align: bottom;
     position: relative;
-
 }
 .banner-5_image .trainer h4{
     font-size: 20px;
@@ -618,7 +617,7 @@ footer h2{
     }
     .container .image .card{
         position: absolute;
-        width: 140px;
+        width: 120px;
         height: 70px;
         padding: 0;
         top: 0;
@@ -626,29 +625,33 @@ footer h2{
     }
 
     .container .image .card h3{
-        font-size: 30px;
-        padding-bottom: 2px;
+        font-size: 25px;
+        /* padding-bottom: 2px; */
     }
     .container .image .one{
-        width: 120px;
-        padding: .6rem;
+        width: 100px;
+        height: auto;
+        padding: 12px;
         margin: 0;
         left: 190px;
         top: 60px;
     }
     
     .container .image .card p{
-        font-size: 12px;
+        font-size: 10px;
         padding: 0;
         margin: 0;
     }
     .container .image .two{
         gap: 10px;
-        padding: .5rem;
+        padding: .2rem;
         align-items: center;
 
-        top: 260px;
+        top: 220px;
         left: 20px;
+    }
+    .container .image .two i{
+        font-size: 30px;
     }
     .card-2{
         flex-direction: column;
@@ -769,21 +772,25 @@ footer h2{
     }
     .banner-4 .grid {
         flex-direction: column;
-        padding: 1rem;
+        padding: .8rem;
     }
     .form-container {
         grid-template-columns: 1fr 1fr; 
+        width: 100%;
+        height: auto;
     }
     .form-container input {
-        width: 40vw;
+        max-width: 38vw;
+        height: auto;
     }
     .form-container select{
-        width: 45vw;
+        max-width: 43vw;
+        height: auto;
     }
     
     .form-container select:nth-child(5) {
         grid-column: span 2; 
-        width: 92vw;
+        max-width: 91vw;
     }
     .banner-4 .input-box .baton{
         margin-left: 20px;
@@ -799,16 +806,24 @@ footer h2{
 
     /* banner-5 responsive */
     .banner-5{
-        margin: 2rem 1rem;
+        margin: 0;
         padding: 0;
     }
     .banner-5_image{
         display: flex;
+        gap: 2rem;
         flex-direction: column;
-        padding: .2rem;
+        padding: 2rem 0;
         width: 100%;
         margin: 0;
+        align-items: center;
     }
+    .banner-5_image .bor{
+        width: 320px;
+        height: auto;
+     
+    }
+    
     
     .banner-5 .b5-title{
         font-size: 2rem;
@@ -898,7 +913,9 @@ footer h2{
         margin: 0;
         width: 100%;
     }
-
+    .banner-5 .banner-5-title .b5-descrip{
+        padding: 1rem;
+    }
     .banner-5_image{
         display: grid;
         grid-template-columns: 1fr 1fr;
