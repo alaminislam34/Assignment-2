@@ -383,11 +383,6 @@ body{
 
 
                         /*--------- Input style---------*/
-.banner-4 .box-a{
-    max-width: 50%;
-    height: auto;
-}
-
 
 .form-container {
     display: grid;
@@ -898,6 +893,11 @@ footer h2{
         height: auto;
     }
     
+    .chart{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
 
     .banner-5_image{
         display: grid;
@@ -914,9 +914,21 @@ footer h2{
     .footer{
         flex-direction: column;
         gap: 1rem;
+        margin: 1rem 2rem;
     }
     .footer .footer-title{
         width: 100%;
         gap: 1rem;
+    }
+}
+@media screen and (max-width: 725px) {
+    .navbar .nav-item{
+        display: none;
+    }
+    .navbar .menu{
+        display: block;
+    }
+    .banner-2-content h3{
+        font-size: 2rem;
     }
 }
