@@ -1298,9 +1298,8 @@ footer h2{
 
 
     .banner-4 .grid{
-        flex-direction: column;
         gap: 2rem;
-        /* align-items: center; */
+        align-items: center;
         padding: 2rem 4rem;
     }
     .banner-4 .grid .box-a{
@@ -1310,15 +1309,15 @@ footer h2{
     .banner-4-content{
         padding: 4rem ;
     }
-    .banner-4 .chart{
+    /* .banner-4 .chart{
         width: 50%;
-    }
-    /* .chart h4{
-        width: 50vw;
+    } */
+    .chart h4{
+        width: 40vw;
     }
     .chart table{
         width: 40vw;
-    } */
+    }
     .chart table tr td{
         padding: 1rem;
     }
