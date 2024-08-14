@@ -34,9 +34,7 @@
 
 
 header{
-    background: url(../images/header-bg.png);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(to bottom, #000000, #0c0c0c, #151515, #1c1c1c, #232323, #232323, #232323, #232323, #1c1c1c, #151515, #0c0c0c, #000000);
 }
 .navbar{
     display: flex;
